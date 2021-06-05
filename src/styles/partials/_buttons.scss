@@ -1,0 +1,16 @@
+.btn {
+  width: 100%;
+  border: 1px solid $border-color;
+  padding: 0.625rem;
+  background: #fff;
+  border-radius: $border-radius;
+  cursor: $cursor;
+
+  &-primary {
+    background: $color-primary;
+    color: #fff;
+  }
+  &-primary:hover {
+    background: $color-primary-hover;
+  }
+}

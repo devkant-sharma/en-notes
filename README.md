@@ -1,4 +1,14 @@
-# en-notes
+# _The Notes app_
+
+## Features
+- Jot down unlimited notes, just type your note and hit enter
+- Notes can only be seen by authenticated user
+- Notes can be edited and deleted on the fly
+- Mobile responsive
+
+## Tech
+- [VueJS] - HTML enhanced for web apps!
+- [Jest] - for unit testing
 
 ## Project setup
 ```
@@ -9,26 +19,7 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
+### Run unit tests
 ```
 npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

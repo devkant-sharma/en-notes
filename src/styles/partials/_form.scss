@@ -1,0 +1,12 @@
+.form-label {
+  word-break: break-all;
+  font-weight: normal;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.625rem;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  outline: none;
+}
