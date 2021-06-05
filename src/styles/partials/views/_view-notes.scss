@@ -1,0 +1,44 @@
+.view-notes {
+  .wrapper-notes {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 27.5rem;
+    padding: 2.5rem 1rem;
+
+    &-list {
+      margin-top: 2rem;
+      max-height: 30rem;
+      overflow: auto;
+
+      ul {
+        list-style: none;
+
+        li {
+          background: #fff;
+          border-radius: 0.25rem;
+          box-shadow: $box-shadow;
+          padding: 0.625rem;
+          margin-bottom: 0.625rem;
+          word-break: break-all;
+          display: flex;
+          justify-content: space-between;
+
+          .edit,
+          .delete {
+            margin: 0 0.625rem;
+            cursor: $cursor;
+
+            &:hover {
+              transform: scale(1.2);
+            }
+          }
+
+          .notes-list-action {
+            min-width: 4.375rem;
+            align-self: center;
+          }
+        }
+      }
+    }
+  }
+}

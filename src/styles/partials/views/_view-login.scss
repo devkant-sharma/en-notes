@@ -1,0 +1,51 @@
+.view-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .form-login {
+    background: #fff;
+    border-radius: $border-radius;
+    padding: 2.5rem 1rem;
+    box-shadow: $box-shadow;
+    display: grid;
+    gap: 0.625rem;
+    width: 100%;
+    margin: 0 1.25rem;
+
+    .title {
+      font-weight: 600;
+    }
+
+    .hint {
+      font-size: 0.8125rem;
+      color: #c0c0c0;
+      word-break: break-all;
+    }
+
+    .error {
+      font-size: 0.8125rem;
+      color: crimson;
+    }
+
+    @media (min-width: 30rem) {
+      grid-template-columns: 5.125rem 18.5rem;
+      gap: 1rem;
+      align-items: center;
+      max-width: 27.5rem;
+
+      .title,
+      .hint,
+      .error,
+      button {
+        justify-self: center;
+        grid-column: 1 / span 2;
+      }
+
+      button {
+        max-width: 12rem;
+      }
+    }
+  }
+}
